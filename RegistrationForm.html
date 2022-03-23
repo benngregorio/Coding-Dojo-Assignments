@@ -7,40 +7,86 @@
     <title>Registration Form</title>
 </head>
 <body>
-    <form action="">
+    <form action="/process" method="post">
         <h1>Registration Form</h1>
-        <label for="First Name">Firstname:*</label>
-            <input type="text" required><br>
-        <label for="Last Name">Lastname:*</label>
-            <input type="text" required><br>
-        <label for="Email Address">Email Address:*</label>
-            <input type="email" required><br>
-        <label for="Password">Password:*</label>
-            <input type="password" required><br>
-        <label for="Confirm Password">Confirm Password:*</label>
-            <input type="password" required><br>
-        <label for="Birthday">Birthday:*</label>
-            <input type="date" required><br>
-        <label for="Gender Identity">Gender Identity:*</label><br>
-                <input type="radio" name="Gender Identity">
-            <label for="Gender Identity">Male</label>
-                <input type="radio" name="Gender Identity">
-            <label for="Gender Identity">Female</label>
-                <input type="radio" name="Gender Identity">
-            <label for="Gender Identity">Non-binary</label>
-                <input type="radio" name="Gender Identity">
-            <label for="Gender Identity">I prefer not to answer</label><br>
-        <label for="">A short description about myself:</label><br>
-            <textarea name="" id="" cols="30" rows="10"></textarea><br>
-        <label for="Favorite Language">Favorite Language:*</label>
-            <select name="Favorite Language" id="">
-                <option value="">Javascript</option>
-                <option value="">Python</option>
-                <option value="">PHP</option><
-            </select><br>
-        <input type="checkbox">Yes, I would like to receive periodic email updates<br>
-        <input type="submit" name="Create Account" value="Create Account"/>
         
+        <div>
+            <label>
+                Firstname:*<input type="text" required>
+            </label>    
+        </div>    
+        
+        <div>
+            <label>Lastname:*<input type="text" required></label>
+        </div>
+        
+        <div>       
+            <label>
+                Email Address:*<input type="email" required>
+            </label>
+        </div>
+        
+        <div>
+            <label>
+                Password:*<input type="password" required>
+            </label>    
+        </div>
+
+        <div>
+            <label>
+                Confirm Password:*<input type="password" required>
+            </label>   
+        </div>
+        
+        <div>
+            <label>
+                Birthday:*<input type="date">
+            </label>
+        </div>
+        
+        <div>
+            <label>Gender Identity:*</label>
+        </div>
+        
+        <div>
+            <input type="radio" name="Gender Identity">
+            <label>
+                Male<input type="radio" name="Gender Identity">
+            </label>
+            <label>
+                Female<input type="radio" name="Gender Identity">
+            </label>
+            <label>
+                Non-binary<input type="radio" name="Gender Identity">
+            </label>
+            <label>I prefer not to answer</label>
+        </div>
+
+        <div>
+            <label>A short description about myself:</label>    
+        </div>
+
+        <div>
+            <textarea name="Description" cols="30" rows="10"></textarea>
+        </div>
+        
+        <div>
+            <label>Favorite Language:*</label>
+            <select name="FavoriteLanguage">
+            <option value="">Javascript</option>
+            <option value="">Python</option>
+            <option value="">PHP</option>
+            </select>   
+        </div>
+
+        <div>
+            <input type="checkbox">Yes, I would like to receive periodic email updates
+        </div>
+        
+        <div>
+            <input type="submit" value="Create Account"/>  
+        </div>
+            
     </form>    
 </body>
 </html>
