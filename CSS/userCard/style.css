@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {  
+    font-family: 'Balsamiq Sans', cursive;
+    border: solid #EFEFEF 5px;
+    width: 800px;
+    height: 350px;
+    margin: 50px auto;
+}
+
+.topnav {
+    background-color: #30AADD;
+    height: 100px;
+    width: auto;
+
+}
+
+.usercircle {
+    background-color: white;
+    border: solid grey 2px;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    padding: 3px;
+   position: relative;
+   left: 40px;
+   top: 40px;
+}
+
+.content {
+    margin: 50px;
+    
+}
+.map-marker {
+    width: 10px;
+    height: 20px;
+    
+}
+
+h2 {
+    display: inline-block;
+    margin-left: 10px;
+    padding-bottom: 20px;
+}
+
+.gear {
+    width: 20px;
+    height: 20px; 
+}
+
+.content2 {
+    padding-top: 20px;
+}
+
+
