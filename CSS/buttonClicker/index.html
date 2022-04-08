@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      <div class="main-container">
+            <div class="top-nav">
+                <h1>Dojonary</h1>
+              <input type="text" placeholder="Search">
+              <button class="login-button" onclick="logOut(this)">Login</button>
+            </div>
+            <div class="sub-container1">
+                <div class="content1">
+                    <div class="word">
+                        <h1>ninja</h1>
+                      <h4>noun</h4>
+                      <p>Plural: <em>ninjas</em></p>
+                    </div>
+                      <div class="definition">
+                      <h4>A practioner skilled  in <br>the <a href="https://en.wikipedia.org/wiki/Japanese_language">Japanese</a> art of <a href="https://en.wikipedia.org/wiki/Ninjutsu">ninjutsu</a></h4>
+                    </div> 
+                    <button class="likebutton" onclick="displayLike();">13 likes</button>                                                        
+                </div>
+                  <div class="content2">
+                    <h3>Dojonary is defined by <b>YOU</b></h3>
+                    <button onclick="hide(this)"><h4>Add Definition</h4></button>
+                </div>
+            </div>
+            <div class="sub-container2">
+                <div class="content1">                
+                    <div class="word">
+                        <h1>ninja</h1>
+                      <h4>noun</h4>
+                      <p>Plural: <em>ninjas</em></p>
+                    </div>
+                      <div class="definition">
+                      <h4>A <a href="https://en.wikipedia.org/wiki/Japanese_language">programmer</a> who breaks <br> down problems with <a href="https://en.wikipedia.org/wiki/Ninjutsu">Zen</a>-like <br> focus</h4>
+                    </div> 
+                    <button class="likebutton" onclick="displayLike();" >13 likes</button>                                       
+                </div>
+            </div>
+      </div>
+    <script src="script.js"></script>    
+  </body>
+</html>
